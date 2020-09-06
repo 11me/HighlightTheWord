@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 2,
+    "name": "HighlightTheWord",
+    "version": "1.0.0",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "scripts": ["background/background.wp.js"]
+    },
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["*://*/*"],
+        "css": []
+    }]
+
+}
