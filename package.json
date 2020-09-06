@@ -1,5 +1,5 @@
 {
-  "name": "highlighttheword",
+  "name": "markit",
   "version": "1.0.0-alpha",
   "description": "highlight words in text",
   "main": "index.js",
